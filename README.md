@@ -2,7 +2,10 @@
 
 Website of [Sira Labs](https://github.com/Sira-Labs): the organisation page and the product
 pages (`/arqam/`). Plain HTML and one stylesheet, no build step; served by GitHub Pages from
-`main` with the custom domain in `CNAME`.
+`main` with the custom domain in `CNAME`. The repository is a project site
+(`siralabs.github.io` under the `Sira-Labs` organisation), so it is only reachable at the
+custom domain root; keep `CNAME` in place. DNS: four `A`/`AAAA` records for `@` to GitHub
+Pages and `www` as a CNAME to `sira-labs.github.io`.
 
 - `index.html` · Sira Labs (night theme)
 - `arqam/index.html` · Arqam (sand theme)
