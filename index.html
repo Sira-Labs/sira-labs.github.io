@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sira Labs · Software you own, built in the open</title>
+  <meta name="description" content="Sira Labs builds self-hostable software from written specs: Thawr, Tabayyun, Suffa and Arqam, each named for a moment of the Sīra.">
+  <meta name="theme-color" content="#111827">
+  <link rel="icon" href="assets/sira-labs/icon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Sira Labs">
+  <meta property="og:description" content="Software you own, built in the open.">
+  <meta property="og:image" content="https://siralabs.org/assets/sira-labs/social-preview.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://siralabs.org/">
+  <link rel="canonical" href="https://siralabs.org/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="theme-sira">
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="wrap">
+    <header class="site-header">
+      <a class="brand" href="./"><img src="assets/sira-labs/icon.svg" alt="" width="36" height="36">Sira Labs</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#projects">Projects</a>
+        <a href="#how">How we build</a>
+        <a href="https://github.com/Sira-Labs">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <p class="ar" lang="ar" dir="rtl" style="text-align: left">سيرة</p>
+          <h1 id="hero-title">Software you own, built in the open.</h1>
+          <p class="lede">Self-hostable tools, each written from specs and decision records before any code, and each named for a moment of the <em>Sīra</em> that says what it is for.</p>
+          <div class="actions">
+            <a class="button primary" href="#projects">See the projects</a>
+            <a class="button" href="https://github.com/Sira-Labs">Follow on GitHub</a>
+          </div>
+        </div>
+        <img class="hero-mark" src="assets/sira-labs/mark-dark.svg" alt="The Sira Labs mark: an S-shaped path linking four stations" width="360" height="360">
+      </section>
+
+      <section id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <p class="section-intro">Four stations on one path. Every project runs on your own server, keeps your data with you, and says in its name what it is for.</p>
+        <div class="grid grid-4">
+          <article class="card">
+            <div class="stripe" style="background: #4fc3c8"></div>
+            <h3>Thawr</h3>
+            <span class="ar" lang="ar" dir="rtl" style="align-self: flex-start">ثور</span>
+            <p>A self-hosted WireGuard mesh VPN in one binary. No cloud, and it keeps working offline.</p>
+            <p class="meaning">The cave of the Hijra: hidden, protected, reachable only by those who belong.</p>
+            <a class="more" href="https://github.com/thedatadudech/Thawr">Thawr on GitHub →</a>
+          </article>
+          <article class="card">
+            <div class="stripe" style="background: #5eead4"></div>
+            <h3>Tabayyun</h3>
+            <span class="ar" lang="ar" dir="rtl" style="align-self: flex-start">تبيّن</span>
+            <p>Verifies industrial time series before anyone acts on them: a score per series and an explanation for every finding.</p>
+            <p class="meaning">To verify a report before acting on it.</p>
+            <a class="more" href="https://github.com/Sira-Labs/Tabayyun">Tabayyun on GitHub →</a>
+          </article>
+          <article class="card">
+            <div class="stripe" style="background: #3fb5a3"></div>
+            <h3>Suffa</h3>
+            <span class="ar" lang="ar" dir="rtl" style="align-self: flex-start">الصُّفَّة</span>
+            <p>Offline-first Arabic learning with your teacher, your class and an AI tutor.</p>
+            <p class="meaning">The platform in the Prophet's ﷺ mosque where people lived and learned.</p>
+            <a class="more" href="https://github.com/thedatadudech/Suffa">Suffa on GitHub →</a>
+          </article>
+          <article class="card highlight">
+            <div class="stripe" style="background: #f5a524"></div>
+            <h3>Arqam</h3>
+            <span class="ar" lang="ar" dir="rtl" style="align-self: flex-start">أرقم</span>
+            <p>One connected journey to AI engineer, data scientist or AI researcher, from openly licensed material.</p>
+            <p class="meaning">Dār al-Arqam, the house where the first Muslims learned together.</p>
+            <a class="more" href="arqam/">About Arqam →</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="how" aria-labelledby="how-title">
+        <h2 id="how-title">How we build</h2>
+        <div class="grid grid-3">
+          <div class="card">
+            <span class="step-number">01 · Specs first</span>
+            <h3>Written before code</h3>
+            <p>Vision, decision records, threat model and acceptance tests come first. AI coding agents then build one spec at a time, and every decision stays in the repository.</p>
+          </div>
+          <div class="card">
+            <span class="step-number">02 · Yours to run</span>
+            <h3>Self-hosted by default</h3>
+            <p>Each project runs on your own server with Postgres and S3-compatible storage. No telemetry you did not ask for, and no secrets in code.</p>
+          </div>
+          <div class="card">
+            <span class="step-number">03 · Named for a meaning</span>
+            <h3>The name is the spec</h3>
+            <p>Every name comes from the Sīra and describes the job. It keeps each project honest about what it is for, and what it is not.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Sira Labs</span>
+      <span><a href="https://github.com/Sira-Labs">GitHub</a> · <a href="https://www.thedatadude.de">thedatadude.de</a></span>
+    </footer>
+  </div>
+</body>
+</html>

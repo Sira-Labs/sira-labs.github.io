@@ -1,0 +1,12 @@
+# siralabs.org
+
+Website of [Sira Labs](https://github.com/Sira-Labs): the organisation page and the product
+pages (`/arqam/`). Plain HTML and one stylesheet, no build step; served by GitHub Pages from
+`main` with the custom domain in `CNAME`.
+
+- `index.html` · Sira Labs (night theme)
+- `arqam/index.html` · Arqam (sand theme)
+- `assets/site.css` · shared styles; `assets/<brand>/` · marks, icons, screenshots and social
+  previews, generated in `Sira-Labs/Arqam` by `docs/assets/genlogo.py`
+
+Preview locally: `python3 -m http.server` in this folder, then open http://localhost:8000.
