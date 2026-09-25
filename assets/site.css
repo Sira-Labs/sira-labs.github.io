@@ -296,6 +296,54 @@ section {
   border-color: var(--accent);
 }
 
+/* Project status chip and link row on the organisation page */
+.card .status {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 10px;
+}
+
+.card .status::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.card .status.live {
+  color: #5eead4;
+  border-color: rgba(94, 234, 212, 0.4);
+}
+
+.card .status.staging {
+  color: var(--accent);
+  border-color: rgba(212, 163, 64, 0.45);
+}
+
+.card .links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card .links a.more {
+  min-height: 36px;
+}
+
+.card a.more.secondary {
+  font-weight: 500;
+  color: var(--muted);
+}
+
 .step-number {
   font-family: var(--font-display);
   font-weight: 700;
