@@ -319,14 +319,9 @@ section {
   background: currentColor;
 }
 
-.card .status.live {
+.card .status.preview {
   color: #5eead4;
   border-color: rgba(94, 234, 212, 0.4);
-}
-
-.card .status.staging {
-  color: var(--accent);
-  border-color: rgba(212, 163, 64, 0.45);
 }
 
 .card .links {

@@ -15,11 +15,12 @@ Pages and `www` as a CNAME to `sira-labs.github.io`.
 The apps themselves are not served from this repository; the pages link to them on their
 own subdomains:
 
-- https://tabayyun.siralabs.org · Tabayyun (live)
-- https://suffa.siralabs.org · Suffa (live)
-- https://arqam-stg.siralabs.org · Arqam (staging preview)
+- https://tabayyun.siralabs.org · Tabayyun (preview)
+- https://suffa.siralabs.org · Suffa (preview)
+- https://arqam-stg.siralabs.org · Arqam (preview)
 
-When a project goes live or moves, update its status chip (`.status.live` / `.status.staging`)
-and links on the card in `index.html`, and the Arqam page for Arqam.
+All three are early previews for now (`.status.preview` chip on each card). When a project
+leaves preview or moves, update its chip and links on the card in `index.html`, and the Arqam
+page for Arqam.
 
 Preview locally: `python3 -m http.server` in this folder, then open http://localhost:8000.
