@@ -12,4 +12,15 @@ Pages and `www` as a CNAME to `sira-labs.github.io`.
 - `assets/site.css` · shared styles; `assets/<brand>/` · marks, icons, screenshots and social
   previews, generated in `Sira-Labs/Arqam` by `docs/assets/genlogo.py`
 
+The apps themselves are not served from this repository; the pages link to them on their
+own subdomains:
+
+- https://tabayyun.siralabs.org · Tabayyun (preview)
+- https://suffa.siralabs.org · Suffa (preview)
+- https://arqam-stg.siralabs.org · Arqam (preview)
+
+All three are early previews for now (`.status.preview` chip on each card). When a project
+leaves preview or moves, update its chip and links on the card in `index.html`, and the Arqam
+page for Arqam.
+
 Preview locally: `python3 -m http.server` in this folder, then open http://localhost:8000.
